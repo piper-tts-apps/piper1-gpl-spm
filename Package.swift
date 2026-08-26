@@ -25,7 +25,8 @@ let package = Package(
                 ],
                 path: "",
                 sources: [
-                    "piper1-gpl/libpiper/src/piper.cpp"
+                    "piper1-gpl/libpiper/src/piper.cpp",
+                    "piper1-gpl/libpiper/src/chinese_phonemize.cpp",
                 ],
                 publicHeadersPath: "piper-spm/public",
                 cxxSettings: [
