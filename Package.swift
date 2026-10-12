@@ -14,7 +14,7 @@ let package = Package(
             targets: ["piper"])
     ],
     dependencies: [
-        .package(url: "https://github.com/IhorShevchuk/espeak-ng-spm.git",
+        .package(url: "https://github.com/piper-tts-apps/espeak-ng-spm.git",
                  from: "2026.04.07")
     ],
     targets: [
